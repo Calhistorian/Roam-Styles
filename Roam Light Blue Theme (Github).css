@@ -1,0 +1,251 @@
+/*### ROAM CUSTOM THEME -- Light Mode (Blue)###
+> Based on too many to mention individually
+> Edits by Calhistorian
+> v1.0
+*/
+
+/* Editor Style */
+
+/* Sidebar */
+
+/* Left Navigation Pane and Text */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page { 
+        background-color: #fff;
+    color: #0f6ca4;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    background-color: #b3d7ff;
+    color: #3d516d;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+/* Sidebar Hover */
+/* Omni Sidebar Hover State */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover { 
+  color: #3d516d;
+  background-color: #b3d7ff;
+  border-radius: 15px;
+}
+
+
+/* Font */
+div {
+  font-family: 'Futura'; 
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0px;
+  padding: 0px;
+}
+textarea {
+  font-family: 'Futura'; 
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header Styles */
+.roam-app h1 { /* styles page titling */
+    color: #3d516d !important;
+    font-weight: bold;
+}
+
+.roam-app h2 { /* styles page titling */
+    color: #3d516d !important;
+    font-weight: bold;
+}
+
+.roam-app h3 { /* styles page titling */
+    color: #3d516d !important;
+    font-weight: bold;
+}
+
+/* Selection Style */
+.rm-block-input {
+    background-color: #b3d7ff;
+    border-radius: 10px;
+    padding-left: 5px;
+  padding-right: 5px;
+}
+
+.block-border-left { /* the tree/outline graphics */
+    border-left: 2px solid #b3d7ff;
+}
+
+/* Bullets */
+.controls .simple-bullet-outer .simple-bullet-inner {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: #6062ef;
+}
+
+/* expandable bullets */
+.roam-bullet-closed { 
+    background-color: #b3d7ff;
+}
+
+/* Top and Bottom Bars in Nav Bar */
+.roam-body .roam-app .roam-sidebar-container { 
+    background-color: #fff;
+  
+}
+
+/* Roam Search Box */
+.bp3-input,
+.bp3-input[readonly]{ 
+    background: #edf5ff;
+    box-shadow: inset 0 0 0 1px #337ab7;
+}
+
+/* Text in Search Results Box */
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
+  word-break: break-word;
+  color: black;
+  overflow-wrap: break-spaces;
+  margin-left: -20px;
+}
+
+/* New Page Style */
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
+  color: #e7424e;
+}
+
+/* Popup Style */
+.bp3-popover-content {
+background: white !important;
+}
+
+.bp3-popover .bp3-popover-arrow-fill {
+    fill: #337ab7;
+}
+.bp3-popover .bp3-popover-content,
+.bp3-menu {
+    background: #ffffff !important;
+    color: #3d516d;
+    box-shadow: 0 0 0 1px rgba(14, 83, 152, .76),
+                0 2px 4px rgba(20, 73, 127, .81)/*,
+                /*0 8px 24px rgba(16, 22, 26, 0.2)*/;
+}
+
+/* Slash Popup */
+.bp3-elevation-3 {
+  color: black;
+background-color: #b0d4fc ;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(14, 83, 152, .76),
+                0 2px 10px rgba(20, 73, 127, .81)/*,
+                /*0 8px 24px rgba(16, 22, 26, 0.2)*/;
+}
+
+.bp3-elevation-3 div {
+  font-family: futura;
+  background-color: white;
+  border-radius: 0px;
+  
+/* any other font styling you want - e.g. font-size */
+}
+
+/* Block Reference Style */
+.rm-block-ref {
+  padding: 4px 2px;
+  margin: -4px 0px;
+  font-size: 12px;
+  display: inline;
+  border-bottom: 1px solid #0d6da5; 
+  cursor: alias;
+  padding-left: 0px; /* RTB add: align to left */
+}
+.rm-block-ref:hover {
+  background-color: #b3d7ff;
+  border-radius: 8px;
+}
+
+.rm-reference-container { /* Reference Separator */
+  border-top: 5px solid #202b33;
+  padding-top: 12px;
+  margin-bottom: 8px;
+}
+
+.rm-reference-item { /* the reference boxes at the bottom */
+    background-color: #e7f2ff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+/* Kanban Style */
+.kanban-board {
+    background-color: #fff;
+}
+
+.kanban-card {
+    background-color: white;
+    margin: 8px;
+    box-shadow: 0px 1px 2px #9EB3C0;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: 1.3em;
+}
+
+.kanban-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.kanban-column {
+    background-color: #E4EDF2;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;
+    min-width: 200px;
+    border-radius: 3px;
+}
+
+
+
+/* Roam Page Sorter */
+.rm-pages-row .rm-pages-col {
+  color: black;
+  padding: 8px 4px;
+  flex: 1 0 15%;
+}
+
+/* Text Styles */
+.roam-highlight {
+  background-color: #f8ee4d;
+  margin: -2px;
+  padding: 2px;
+}
+/* Namespace Color */
+.rm-page-ref-namespace-color {
+  color: green;
+}
+
+
+/* Tag Styles */
+.rm-page-ref-tag {
+    color: #617a99 !important;
+    background-color: #ecf5ff;
+    border-radius: 8px;
+    padding: .5px 3.5px .5px 3.5px;
+}
+.rm-page-ref-tag:hover {
+    color: #202b33 !important;
+    background-color: #b3d7ff;
+    text-decoration: none;
+}
+
+/* Test */
+
+/*
+.bp3-elevation-3 .dont-unfocus-block {
+  filter: invert(100%);
+
+}
+

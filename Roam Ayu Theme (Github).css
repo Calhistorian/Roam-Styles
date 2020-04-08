@@ -1,0 +1,286 @@
+/*
+### ROAM CUSTOM THEME ###
+> Many thanks to the Roam Slack community for all the resources, particularly @Anthony for the Bear theme that helped in this construction.
+> Edits by Calhistorian
+> v2.0
+*/
+
+/* Editor */
+
+body { /*    Background color   */
+    background-color: black;
+}
+
+span.rm-page-ref { /*    Page Link Over-ride   */
+  color: #e78924 !important;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+        background-color: #172027;
+    color: #f8c764;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    background-color: #f8c764;
+    color: black;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+/* Omni Sidebar Hover State */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover { 
+  color: #e98924;
+  background-color: black;
+  border-radius: 15px;
+}
+
+/* Roam Search Bar */
+
+/* Roam Search Box Text Color */
+.bp3-input::placeholder,
+.bp3-input-group > .bp3-icon {
+    color: #f8c764;
+}
+
+/* Roam Search Box Field and Border */
+.bp3-input,
+.bp3-input[readonly]{ 
+    background: black;
+    box-shadow: inset 0 0 0 1px #e98924;
+}
+
+.bp3-popover .bp3-popover-arrow-fill {
+    fill: #f8c764;
+}
+
+.bp3-omnibar {
+    background-color: red;
+}
+
+div { /* Side Bar Font */
+  font-family: 'Futura'; 
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0px;
+  padding: 0px;
+}
+textarea { /* Body Font */
+  font-family: 'Futura'; 
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* New Page Style */
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
+  color: #e7424e;
+}
+
+.roam-article > div:last-child a { /* Reference Titles */
+    color: #f8c764 !important;
+}
+
+/*
+.rm-reference-container > div:last-child a {
+  color: #c70606;
+} */
+
+.rm-reference-item { /* the reference boxes at the bottom */
+  background-color: #f2c98f1a;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+a { /* Markdown Link Titles */
+    color: #e88923;
+}
+
+.rm-block-input { /* the currently selected block */
+  color: black !important;
+  background-color: #f8c764;
+    border-radius: 10px;
+    padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Block Reference Style */
+.rm-block-ref {
+  padding: 4px 2px;
+  margin: -4px 0px;
+  font-size: 12px; /* RTB change: block ref's same size as others */
+  display: inline;
+  border-bottom: 1px solid #f8c764; 
+  cursor: alias;
+  padding-left: 0px; /* RTB add: align to left */
+}
+
+/* Block Reference Highlight*/
+.rm-block-ref:hover {
+  color: black !important;
+  background-color: #f8c764;
+  border-radius: 5px;
+}
+
+.rm-reference-container { /* Reference Separator */
+  border-top: 5px solid #f8c764;
+  padding-top: 12px;
+  margin-bottom: 8px;
+}
+
+/* Header Styles */
+.roam-app h1 { /* styles page titling */
+    color: #f8c764 !important;
+    font-weight: bold;
+}
+
+.roam-app h2 { /* styles page titling */
+    color: #f8c764 !important;
+    font-weight: bold;
+}
+
+.roam-app h3 { /* styles page titling */ 
+    color: #f8c764 !important;
+    font-weight: bold;
+}
+
+.roam-app { /* primary text colour */
+    color: #d4d3cc !important;
+}
+
+
+.roam-topbar { 
+    background-color: #172027;
+}
+
+/* Tag Styles */
+.rm-page-ref-tag { /* hashtags */
+    color: #f8c764 !important;
+    background-color: #423212;
+    border-radius: 10px;
+    padding: 2px 3px 2px 3px;
+}
+.rm-page-ref-tag:hover {
+    color: white !important;
+  background-color: #e88a24;
+    text-decoration: none;
+}
+
+.block-highlight-blue { /* the bright blue highlight color */
+    background-color: #735821;
+}
+
+.block-border-left { /* the tree/outline graphics */
+    border-left: 2px solid #ac8943;
+}
+
+/*
+.rm-level3 {
+  color: red;
+}
+*/
+
+code { /* the single backtick code snippets */
+    background-color: #242F38 !important;
+    border-radius: 3px !important;
+    color: #fded74;
+    border: 0px solid #13191e;
+    padding: 3px 4px 3px 4px;
+    font-weight: bold;
+}
+
+/*
+strong { /* bold text
+    font-size: 1.15em;
+    color: #0a71ea;
+}
+*/
+
+.roam-highlight { /* highlighting */
+    background-color: #fdd755db;
+    color: #0F1419;
+    border-radius: 2px;
+    padding: 2px 3px 2px 3px;
+}
+
+/* Bullets */
+.controls .simple-bullet-outer .simple-bullet-inner {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: orange; /* RTB change: blue bullet */
+}
+
+.roam-bullet-closed { /* expandable bullets */
+    background-color:  orange;
+}
+
+#right-sidebar {
+    background-color: #1e232f !important;
+}
+
+/* bullet indent width */
+.flex-v-box { 
+    margin-left: 15px !important;
+}
+
+/* Context Menus */
+.bp3-popover .bp3-popover-content,
+.bp3-menu {
+    background: black;
+    color: #e98924;
+    box-shadow: 0 0 0 1px #f4c463,
+                0 2px 10px #f4c463/*,
+                /*0 8px 24px rgba(16, 22, 26, 0.2)*/;
+}
+
+/* Slash Popup */
+.bp3-elevation-3 {
+  color: #e98924;
+ background-color: black !important;
+  font-size: 12px;
+  border-radius: 4px;
+   box-shadow: 0 0 0 2px #f4c463,
+                0 2px 15px #e98924;
+}
+/*
+.bp3-elevation-3 .dont-unfocus-block {
+filter: invert(100%);
+}*/
+
+.bp3-elevation-3 div {
+font-family: futura;
+background-color: black;
+  border-radius: 0px;
+}
+
+/* Roam All Pages */
+.rm-pages-row:first-child { /*    Table Header   */
+  background: black !important;
+}
+.rm-pages-row:first-child {
+background: #172027 !important;
+}
+
+.rm-pages-row .rm-pages-title-col a { /*    Page Title  */
+    color: #e88a24 !important;
+}
+.rm-pages-row .rm-pages-title-col a + span,
+.rm-pages-row .rm-pages-title-col .bp3-text-overflow-ellipsis { /*    Page Body Preview   */
+    color: white !important;
+}
+
+
+.rm-pages-row.rm-pages-row-highlight { /*    Alternate Row Highlight   */
+    background-color: black;
+}
+
+/* Test */
+/*
+.bp3-elevation-3 .dont-unfocus-block {
+  filter: invert(100%);
+}
