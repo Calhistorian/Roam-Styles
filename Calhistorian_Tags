@@ -1,0 +1,727 @@
+/* General Workflow Tags */
+span.rm-page-ref {
+    border-radius: 4px !important;
+}
+span.rm-page-ref[data-tag="Quick Capture"] {
+    background-color: #b3e1ff !important;
+    font-weight: 600 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Quick Capture"]::after {
+    content: " 📨"
+}
+span.rm-page-ref[data-tag="Morning Review"] {
+    background-color: #b3e1ff !important;
+    font-weight: 600 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Morning Review"]::after {
+    content: " ☀️"
+}
+
+span.rm-page-ref[data-tag="Global Inbox"] {
+    background-color: #b3e1ff !important;
+    font-weight: 600 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Global Inbox"]::after {
+    content: " 📨"
+}
+span.rm-page-ref[data-tag="Morning Pages"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Morning Pages"]::after {
+    content: " 📝"
+}
+span.rm-page-ref[data-tag="Open Questions"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Open Questions"]::after {
+    content: " 🔭"
+}
+span.rm-page-ref[data-tag="Evening Pages"] {
+    background-color: #2d79ab !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Evening Pages"]::after {
+    content: " 🌙"
+}
+span.rm-page-ref[data-tag="Looking Lens"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Looking Lens"]::after {
+    content: " 🔭"
+}
+span.rm-page-ref[data-tag="Inbox"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Inbox"]::after {
+    content: " 📥️"
+}
+span.rm-page-ref[data-tag="Journal"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Journal"]::after {
+    content: " 📓"
+}
+span.rm-page-ref[data-tag="Morning Reflection"] {
+    background-color: #5dbeffba !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Morning Reflection"]::after {
+    content: " 🧠"
+}
+span.rm-page-ref[data-tag="Weather Report"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Weather Report"]::after {
+    content: " 🌦️"
+}
+span.rm-page-ref[data-tag="Calendar"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Calendar"]::after {
+    content: " 📆"
+}
+span.rm-page-ref[data-tag="Professional"] {
+    background-color: #029aff !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Professional"]::after {
+    content: " 💼"
+}
+/* Data Tags */
+span.rm-page-ref[data-tag="Event:"] {
+    background-color: #e0787fb3 !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Event:"]::after {
+    content: " 📅"
+}
+/* Capture Tags */
+span.rm-page-ref[data-tag="Capture Inbox"] {
+    background-color: #e0787fb3 !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Capture Inbox"]::after {
+    content: " 📨"
+}
+span.rm-page-ref[data-tag="To Watch"] {
+    background-color: #f43f4bb3 !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="To Watch"]::after {
+    content: " 📺️"
+}
+span.rm-page-ref[data-tag="To Read"] {
+    background-color: #a63ff4b3 !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="To Read"]::after {
+    content: " 📖"
+}
+span.rm-page-ref[data-tag="To Listen"] {
+    background-color: #f43f9ab3 !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="To Listen"]::after {
+    content: " 🎧"
+}
+span.rm-page-ref[data-tag="Get"] {
+    background-color: #96f43fb3 !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Get"]::after {
+    content: " ✋"
+}
+span.rm-page-ref[data-tag="Web Clipper"] {
+    background-color: #37f135 !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Web Clipper"]::after {
+    content: " ✂️"
+}
+span.rm-page-ref[data-tag="Tweets"] {
+    background-color: #029affa3 !important;
+    font-weight: 600 !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Tweets"]::after {
+    content: " 🐦️"
+}
+/* Thinking Tags ---------------------------------- */
+/*  Proposed
+#Choice
+    #Options:
+    #1:
+    #2:
+    #3:
+    #4:
+    #Thinking:
+    #Decision
+*/
+/* Editing */
+span.rm-page-ref[data-tag^="📌"] {
+    background: #9dd5fa;
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 7px;
+    line-height: 2em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* Page Tags -----------------------------------------*/
+/* Areas Tag */
+span.rm-page-ref[data-tag^="⨷ |"] {
+    background: #029aff;
+    color: white;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+/* Canvas Tag */
+span.rm-page-ref[data-tag^="⌘ |"] {
+    background: #f70e2d;
+    color: white;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+/* Projects */
+span.rm-page-ref[data-tag^="✪ |"] {
+    background: #b75fff;
+    color: #fff;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+/* Projects */
+span.rm-page-ref[data-tag^="⚙︎ |"] {
+    background: #ff965a;
+    color: #fff;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+/* Task list */
+span.rm-page-ref[data-tag^="✔︎"] {
+    background: #8dfb7b;
+    color: black;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="⑉"] {
+    background: #98a4af;
+    color: white;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="◉ -"] {
+    background: #949494;
+    color: white;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="♽ "] {
+    background: #8dfb7b;
+    color: black;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="⎈  "] {
+    background: #8dfb7b;
+    color: black;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="⌂ |"] {
+    background: #27c15d;
+    color: white;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="📥 "] {
+    background: #85b8f073;
+    color: black;
+    padding: 1px 7px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+span.rm-page-ref[data-tag^="📗 "] {
+    background: #ff913d;
+    color: white;
+    padding: 0px 5px;
+    line-height: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+}
+/* Task Tags */
+span.rm-page-ref[data-tag="Tasks"] {
+    background-color: #f8e464 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Tasks"]::after {
+    content: " ✔"
+}
+span.rm-page-ref[data-tag="Evening Review"] {
+    background-color: #2ec10ade !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-weight: 600 !important;
+}
+span.rm-page-ref[data-tag="Evening Review"]::after {
+    content: " ⟳"
+}
+span.rm-page-ref[data-tag="Upcoming Tasks"] {
+    background-color: Orange !important;
+    font-weight: 600 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Upcoming Tasks"]::after {
+    content: " 📆"
+}
+span.rm-page-ref[data-tag="Waiting"] {
+    background-color: #f89071 !important;
+    font-weight: 400 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-size: 12px;
+}
+span.rm-page-ref[data-tag="Waiting"]::after {
+    content: " 🛑"
+}
+span.rm-page-ref[data-tag="On Hold"] {
+    background-color: #f89071 !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="On Hold"]::after {
+    content: " 🛑"
+}
+span.rm-page-ref[data-tag="Task List"] {
+    background-color: #f89071 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Task List"]::after {
+    content: " 🔥"
+}
+span.rm-page-ref[data-tag="Due"] {
+    background-color: #bf360d !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Due"]::after {
+    content: " 🔴"
+}
+span.rm-page-ref[data-tag="Overdue"] {
+    background-color: #bf360d !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Overdue"]::after {
+    content: " 🔴"
+}
+span.rm-page-ref[data-tag="Task Inbox"] {
+    background-color: #b3e1ff !important;
+    font-weight: 600 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Task Inbox"]::after {
+    content: " 📥"
+}
+span.rm-page-ref[data-tag="Action List"] {
+    background-color: #f8e464 !important;
+    font-weight: 600 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Action List"]::after {
+    content: " ☑️"
+}
+span.rm-page-ref[data-tag="Action"] {
+    background-color: #f8e464 !important;
+    font-size: 12px;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Action"]::after {
+    content: " ✸"
+}
+span.rm-page-ref[data-tag="Priority"] {
+    background-color: #e24c1a !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Priority"]::after {
+    content: " ⭐️"
+}
+span.rm-page-ref[data-tag="Maybe"] {
+    background-color: #ffdd52 !important;
+    color: Black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Maybe"]::after {
+    content: " 🤷‍♂️"
+}
+span.rm-page-ref[data-tag="Scheduled"] {
+    background-color: #6062ef !important;
+    color: #ffffff !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Scheduled"]::after {
+    content: " ◉"
+}
+span.rm-page-ref[data-tag="Reschedule"] {
+    background-color: #6062ef !important;
+    color: #ffffff !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Reschedule"]::after {
+    content: " ⇥"
+}
+span.rm-page-ref[data-tag="Someday"] {
+    background-color: Grey !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-weight: 600 !important;
+}
+span.rm-page-ref[data-tag="Someday"]::after {
+    content: " ？"
+}
+span.rm-page-ref[data-tag="Query"] {
+    background-color: #7097fa !important;
+    font-weight: 600 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Query"]::after {
+    content: " 🔎"
+}
+span.rm-page-ref[data-tag="Start Date"] {
+    background-color: #f7f263 !important;
+    color: #1e232f !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Start Date"]::after {
+    content: " ☀️"
+}
+span.rm-page-ref[data-tag="InProgress"] {
+    background-color: #78e672 !important;
+    font-size: 12px;
+    color: #1e232f !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="InProgress"]::after {
+    content: " \21bb"
+}
+span.rm-page-ref[data-tag="Process"] {
+    background-color: #78e672 !important;
+    color: #1e232f !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Process"]::after {
+    content: " \21bb"
+}
+span.rm-page-ref[data-tag="Do Today"] {
+    background-color: #A0FF8C !important;
+    color: #1e232f !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Do Today"]::after {
+    content: " ✔︎"
+}
+span.rm-page-ref[data-tag="Task Archive"] {
+    background-color: #c000fe !important;
+    font-size: 14px;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-weight: 600 !important;
+}
+span.rm-page-ref[data-tag="Task Archive"]::after {
+    content: " 💾"
+}
+.starred-pages[data-pages="Messages"] {
+    color: red !important;
+}
+/* Daily Notes Tags */
+span.rm-page-ref[data-tag="Class Notes"] {
+    background-color: #6062ef !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-weight: 600 !important;
+}
+span.rm-page-ref[data-tag="Class Notes"]::after {
+    content: " 👨🏻‍🏫"
+}
+span.rm-page-ref[data-tag="Daily Notes"] {
+    background-color: #ff965a !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-weight: 600 !important;
+}
+span.rm-page-ref[data-tag="Daily Notes"]::after {
+    content: " 📅"
+}
+span.rm-page-ref[data-tag="Task Management"] {
+    background-color: #8a1edc !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+    font-weight: 600 !important;
+}
+span.rm-page-ref[data-tag="Task Management"]::after {
+    content: " ✅"
+}
+/* Professional Tags */
+span.rm-page-ref[data-tag="Courses"] {
+    background-color: #6062ef !important;
+    color: White !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Courses"]::after {
+    content: " 👨🏻‍🏫"
+}
+span.rm-page-ref[data-tag="2020 Summer"] {
+    background-color: #dab94a !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="2020 Summer"]::after {
+    content: " 🕶"
+}
+span.rm-page-ref[data-tag="2020 Spring"] {
+    background-color: #dab94a !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="2020 Spring"]::after {
+    content: " 🌺"
+}
+span.rm-page-ref[data-tag="Agenda"] {
+    background-color: #8688f4 !important;
+    font-size: 12px;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Agenda"]::after {
+    content: " 🕑"
+}
+span.rm-page-ref[data-tag="Email"] {
+    background-color: #bf360d !important;
+    font-size: 12px;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Email"]::after {
+    content: " 📧"
+}
+span.rm-page-ref[data-tag="Sleep Log"] {
+    background-color: #029aff !important;
+    font-size: 14px;
+    color: white !important;
+    letter-spacing: .07em;
+    font-weight: 600;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Sleep Log"]::after {
+    content: " 🛌"
+}
+span.rm-page-ref[data-tag="Zettels"] {
+    background-color: #65cc4bde !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Zettels"]::after {
+    content: " 🗂️"
+}
+span.rm-page-ref[data-tag="Question"] {
+    background-color: #ff5f69 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Question"]::after {
+    content: " ❔"
+}
+span.rm-page-ref[data-tag="Choice"] {
+    background-color: #63aae1 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Choice"]::after {
+    content: " ⎇"
+}
+span.rm-page-ref[data-tag="Thinking"] {
+    background-color: #ff5fd4 !important;
+    color: white !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Thinking"]::after {
+    content: " 🧠"
+}
+span.rm-page-ref[data-tag="Decision"] {
+    background-color: #43d945 !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Decision"]::after {
+    content: " ⍻"
+}
+span.rm-page-ref[data-tag="Options"] {
+    background-color: #69f46b !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Options"]::after {
+    content: " ⌥"
+}
+/* Presentation Syntax */
+span.rm-page-ref[data-tag="Slide"] {
+    background-color: #69f46b !important;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Slide"]::before {
+    content: "👨‍🏫 "
+}
+/*
+span[data-link-uid="3FaqrJBnf"]{
+    color: red !important;
+    border-radius: 5px;
+    }
+span[data-link-uid="3FaqrJBnf"]::after{
+    content: "⍙"
+}
+
+
+/* Testing */
+/*
+span[data-link-title="Roam"]{
+    }
+span[data-link-uid=""]{
+    }
