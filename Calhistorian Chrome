@@ -1,0 +1,63 @@
+/* Modified theme from Abhay Prasanna - credit goes to him */
+
+@import url(‘https://abhayprasanna.github.io/better-dark-age.css’);
+
+/* IMPORT FONTS */
+@import url(‘https://fonts.googleapis.com/css?family=Nunito|Fira+Code|Bitter’);
+
+:root {
+  /* FONTS */
+  —global-font             : ‘Source Code Pro’, sans-serif;
+  —secondary-font          : ‘Fira Code’, monospace;
+  —header-font             : ‘Andale Mono’, serif;
+  /* WIDTH FIXES - default 568px,1032px - increase to increase WIDTH */
+  —reduce-padding-right    : 3400px;
+  —reduce-padding-left     : 3400px;
+  /* COLORS (HT: Mike Judd for the recommendation */
+  —page-links              : #eaeaea;
+  —attributes-color        : #f07178;
+  —external-links          : #5281b3;
+  —links-hover             : #63b255;
+  —hashtags                : #56bea3;
+  —body-text               : #e8e6e3;
+  —italics-color           : #f78c6c;
+  —bold-color              : #ffcb6b;
+  —highlight-text-color    : #e8e6e3;
+  —highlighter             : #444267;
+  —background              : #000000;
+  —sidebar-background      : #2d2d2d;
+  —sidebar-text            : #e0e0e0;
+  —page-heading            : #979797;
+  —daily-heading           : #eaeaea;
+  —headings                : #e8e6e3;
+  —bullets                 : #a9d0e6;
+  —closed-bullets          : #444267;
+  —references              : #80cbc4;
+  —block-reference-text    : #ffcb6b;
+  —namespaces              : #f78c6c;
+  —all-pages-mentions      : #f07178;
+  —cursor                  : #f66d6d;
+  —icons                   : #e0e0e0;
+  —icons-hover             : #63b255;
+  —filter-icon             : #c3e88d;
+  /* FONT SIZES */
+    —main-font-size          : 1em;
+  —page-head-font-size     : 2.2em;
+  —h1-font-size            : 2em;
+  —h2-font-size            : 1.6em;
+  —h3-font-size            : 1.2em;
+  —sidebar-h1-size         : 2.2em;
+  /* DROPDOWN MENU */
+  —dropdown-menu-background: #2d2d2d;
+  —dropdown-menu-highlight : #3f3f3f;
+  —dropdown-menu-text      : #e8e6e3;
+  —dropdown-newpage        : #80cbc4;
+  /* SEARCH BAR */
+  —search-bar-background   : #202331;
+  —search-bar-text         : #e8e6e3;
+  /* KANBAN CARD COLORS */
+  —kanban-main-background  : #292D3E;
+  —kanban-column-background: #3B415C;
+  —kanban-card-background  : #292D3E;
+  —kanban-text-hover       : #c792ea;
+}
