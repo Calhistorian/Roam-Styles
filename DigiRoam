@@ -82,3 +82,4 @@
 /* Left sidebar separator color  */
 div[style*=“background-color: rgb(57, 75, 89);”] {
   background-color: #71f25e !important;
+  }
