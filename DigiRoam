@@ -1,0 +1,84 @@
+@import url(‘https://abhayprasanna.github.io/better-dark-age.css’);
+
+/* IMPORT FONTS */
+@import url(‘https://fonts.googleapis.com/css?family=Orbitron’);
+
+:root {
+  /* FONTS */
+  —global-font             : ‘PT Mono’, monospace;
+  —secondary-font          : ‘PT Mono’, monospace;
+  —header-font             : ‘Orbitron’, monospace;
+  /* WIDTH FIXES - default 568px,1032px - increase to increase WIDTH */
+  —reduce-padding-right    : 3400px;
+  —reduce-padding-left     : 3400px;
+  /* COLORS (HT: Mike Judd for the recommendation */
+  —page-links              : #21a4f1;
+  —attributes-color        : #F98F95;
+  —external-links          : #5281b3;
+  —links-hover             : #00D9F7;
+  —hashtags                : #71f25e;
+  —body-text               : #e8e6e3;
+  —italics-color           : #f78c6c;
+  —bold-color              : #71f25e;
+  —highlight-text-color    : #e8e6e3;
+  —highlighter             : #444267;
+  —background              : #000000;
+  —sidebar-background      : #252526;
+  —sidebar-text            : #21a4f1;
+  —page-heading            : #21a4f1;
+  —daily-heading           : #21a4f1;
+  —headings                : #e8e6e3;
+  —bullets                 : #a9d0e6;
+  —closed-bullets          : #444267;
+  —references              : #80cbc4;
+  —block-reference-text    : #71f25e;
+  —namespaces              : #FF505A;
+  —all-pages-mentions      : #f07178;
+  —cursor                  : #f66d6d;
+  —icons                   : #21a4f1;
+  —icons-hover             : #AAEBF4;
+  —filter-icon             : #c3e88d;
+  /* FONT SIZES */
+  —main-font-size          : 1em;
+  —page-head-font-size     : 2.2em;
+  —h1-font-size            : 2em;
+  —h2-font-size            : 1.6em;
+  —h3-font-size            : 1.2em;
+  —sidebar-h1-size         : 2.2em;
+  /* DROPDOWN MENU */
+  —dropdown-menu-background: #2d2d2d;
+  —dropdown-menu-highlight : #3f3f3f;
+  —dropdown-menu-text      : #71f25e;
+  —dropdown-newpage        : #80cbc4;
+  /* SEARCH BAR */
+  —search-bar-background   : #202331;
+  —search-bar-text         : #71f25e;
+  /* KANBAN CARD COLORS */
+  —kanban-main-background  : #292D3E;
+  —kanban-column-background: #3B415C;
+  —kanban-card-background  : #292D3E;
+  —kanban-text-hover       : #c792ea;
+}
+
+/* Left sidebar text color (CREDIT - Roam-util)*/
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title .expand-icon,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-sidebar-container .rm-db-title-container .rm-db-title,
+.starred-pages-wrapper > div > span {
+  font-family: ‘Orbitron’ !important;
+}
+
+/* Left sidebar hover color (CREDIT - Roam-util)*/
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
+  background-color: unset;
+ /*  color           : var(—icons-hover) !important; */
+  font-weight     : bold;
+    font-family: ‘Orbitron’ !important;
+}
+
+/* Left sidebar separator color  */
+div[style*=“background-color: rgb(57, 75, 89);”] {
+  background-color: #71f25e !important;
