@@ -1,13 +1,13 @@
-@import url(‘https://abhayprasanna.github.io/better-dark-age.css’);
+@import url('https://abhayprasanna.github.io/better-dark-age.css');
 
 /* IMPORT FONTS */
-@import url(‘https://fonts.googleapis.com/css?family=Roboto Mono|Orbitron’);
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono|Orbitron');
 
 :root {
   /* FONTS */
-  --global-font             : ‘PT Mono’, monospace;
-  --secondary-font          : ‘PT Mono’, monospace;
-  --header-font             : ‘Orbitron’, monospace;
+  --global-font             : 'PT Mono', monospace;
+  --secondary-font          : 'PT Mono', monospace;
+  --header-font             : 'Orbitron', monospace;
   /* WIDTH FIXES - default 568px,1032px - increase to increase WIDTH */
   --reduce-padding-right    : 3400px;
   --reduce-padding-left     : 3400px;
@@ -66,7 +66,7 @@
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
 .roam-sidebar-container .rm-db-title-container .rm-db-title,
 .starred-pages-wrapper > div > span {
-  font-family: ‘Orbitron’ !important;
+  font-family: 'Orbitron' !important;
 }
 
 /* Left sidebar hover color (CREDIT - Roam-util)*/
@@ -74,17 +74,17 @@
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover,
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
   background-color: unset;
- /*  color           : var(—icons-hover) !important; */
+ /*  color           : var(--icons-hover) !important; */
   font-weight     : bold;
-    font-family: ‘Orbitron’ !important;
+    font-family: 'Orbitron' !important;
 }
 
 /* Left sidebar separator color  */
-div[style*=“background-color: rgb(57, 75, 89);”] {
+div[style*="background-color: rgb(57, 75, 89);"] {
   background-color: #71f25e !important;
 }
 #roam-title-day-banner {
-  font-family: ‘Orbitron’ !important;
+  font-family: 'Orbitron' !important;
   font-weight: 400 !important;
   font-size: 10px !important;
 }
