@@ -1,7 +1,7 @@
 @import url(‘https://abhayprasanna.github.io/better-dark-age.css’);
 
 /* IMPORT FONTS */
-@import url(‘https://fonts.googleapis.com/css?family=Orbitron’);
+@import url(‘https://fonts.googleapis.com/css?family=Roboto Mono|Orbitron’);
 
 :root {
   /* FONTS */
@@ -82,4 +82,9 @@
 /* Left sidebar separator color  */
 div[style*=“background-color: rgb(57, 75, 89);”] {
   background-color: #71f25e !important;
-  }
+}
+#roam-title-day-banner {
+  font-family: ‘Orbitron’ !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+}
