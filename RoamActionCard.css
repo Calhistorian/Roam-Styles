@@ -1,0 +1,23 @@
+[data-tag="actioncard"] {
+display:none;
+}
+
+[data-page-links*="actioncard"] {
+  border: 1px solid grey;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;  
+}
+[data-page-links*="actioncard"] > .rm-block-main::before {
+  content: " ✅";
+  padding-left: 10px;
+  padding-top: 5px;
+
+
+}
+[data-page-links*="actioncard"] .rm-block-main .rm-block__controls {
+ display: none;
+}
+[data-page-links*="actioncard"] >.rm-block-children div.controls.rm-block__controls {
+  display: unset;
+}
