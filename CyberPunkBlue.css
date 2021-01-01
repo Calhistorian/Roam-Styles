@@ -1,0 +1,349 @@
+/* Built from Abhay Prasanna's variation of the legendary Better Dark Age Theme */
+@import url('https://abhayprasanna.github.io/better-dark-age.css');
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Raleway|Roboto');
+
+:root {
+  /* FONTS */
+  --global-font             : 'Orbitron', sans-serif;
+  --secondary-font          : 'Raleway', monospace;
+  --header-font             : 'Orbitron', serif;
+  /* WIDTH FIXES - default 568px,1032px - increase to increase WIDTH */
+  --reduce-padding-right    : 3400px;
+  --reduce-padding-left     : 3400px;
+  /* COLORS (HT: Mike Judd for the recommendation */
+  --page-links              : #fe296d;
+  --attributes-color        : #025578;
+  --external-links          : #ff194c;
+  --links-hover             : #1bfe49;
+  --hashtags                : #0ad8e8;
+  --body-text               : #d1f8ff;
+  --italics-color           : #d42668;
+  --bold-color              : #ff587d;
+  --highlight-text-color    : #d1f8ff57;
+  --highlighter             : #406876;
+  --background              : #01012a;
+  --sidebar-background      : #01476b;
+  --sidebar-text            : #0ad8e8;
+  --page-heading            : #0ad8e8;
+  --daily-heading           : #0ad8e8;
+  --headings                : #0ad8e8;
+  --bullets                 : #025578;
+  --closed-bullets          : #292b44;
+  --references              : #ffccdb;
+  --block-reference-text    : #ff587d;
+  --namespaces              : #ff587d;
+  --all-pages-mentions      : #ff587d;
+  --cursor                  : #ea236f;
+  --icons                   : #0ad8e8;
+  --icons-hover             : #d1f8ff;
+  --filter-icon             : #ff587d;
+  /* FONT SIZES */
+  --main-font-size          : 1em;
+  --page-head-font-size     : 2.2em;
+  --h1-font-size            : 2em;
+  --h2-font-size            : 1.6em;
+  --h3-font-size            : 1.2em;
+  --sidebar-h1-size         : 2.2em;
+  /* DROPDOWN MENU */
+  --dropdown-menu-background: #3B415C;
+  --dropdown-menu-highlight : #292D3E;
+  --dropdown-menu-text      : #e8e6e3;
+  --dropdown-newpage        : #80cbc4;
+  /* SEARCH BAR */
+  --search-bar-background   : #202331;
+  --search-bar-text         : #e8e6e3;
+  /* KANBAN CARD COLORS */
+  --kanban-main-background  : #292D3E;
+  --kanban-column-background: #3B415C;
+  --kanban-card-background  : #292D3E;
+  --kanban-text-hover       : #c792ea;
+  }
+
+/* Remove Rounded Main Pages */
+.roam-body-main {
+    border-radius: 2px !important;
+}
+#roam-right-sidebar-content {
+    border-radius: 2px !important;
+}
+
+/* Remove Block Reference Sytling */
+
+
+/* -------------------------- */
+/* Block and Page embed */
+.rm-embed--page.rm-embed-container {
+  background-color: var(--kanban-column-background) !important;
+  margin-left     : -16px !important;
+  margin-right    : 2px !important;
+  margin-bottom   : 0;
+  padding         : 10px 20px 10px 15px !important;
+  border-radius   : 2px !important;
+  box-shadow      : 0 0 2px 1px var(--references);
+}
+
+.rm-embed--page.rm-embed-container::before {
+  content    : "Page Embed";
+  color      : var(--block-reference-text);
+  font-weight: 800 !important;
+}
+
+.rm-embed__content .rm-reference-container {
+  border: none;
+}
+
+.rm-embed__content .rm-reference-main {
+  border-color: var(--references);
+}
+
+.rm-embed-margin-action {
+  background-color: var(--closed-bullets) !important;
+}
+
+.rm-embed-margin-action.rm-not {
+  margin-left: -7px;
+}
+
+.rm-embed-margin-action.rm-active {
+  margin-left: -7px;
+}
+
+.rm-embed-container {
+  padding    : 0 !important;
+  margin-left: -20px !important;
+}
+
+.rm-embed-container:hover > .rm-embed-edit {
+  right: 6px;
+}
+
+.rm-embed-edit {
+  margin : 0 !important;
+  z-index: 1000;
+}
+
+.rm-embed-inner-block-hide {
+  margin       : 2px 2px 2px 4px !important;
+  background   : var(--kanban-column-background) !important;
+  padding      : 3px 10px 3px 3px !important;
+  border-radius: 2px;
+  box-shadow   : 0 0 2px 1px var(--references);
+}
+
+.rm-embed-inner-block-hide:before {
+  content     : "Block Embed";
+  color       : var(--block-reference-text);
+  padding-left: 8px !important;
+  font-weight : 500 !important;
+}
+
+.rm-embed-inner-block-hide .roam-block-container.rm-not-focused.block-bullet-view {
+  margin-left: 6px;
+}
+
+.rm-embed-container .rm-page__title {
+  color      : var(--page-heading) !important;
+  font-family: var(--header-font) !important;
+  padding-top: 5px !important;
+}
+
+/* ------------------------- */
+/* Query */
+.rm-query-title {
+  background    : var(--highlight-text-color) !important;
+  color         : var(--bold-color) !important;
+  font-weight   : 500;
+  border-bottom : 1px solid var(--bold-color) !important;
+  border-radius : 2px !important;
+  padding-top   : 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.rm-query {
+  box-shadow   : 0 0 2px 1px var(--bold-color);
+  border-radius: 2px;
+  border       : transparent;
+  padding      : 0;
+}
+
+.rm-ref-page-view {
+  margin-right: 20px !important;
+}
+
+/* -------------------------- */
+/* Block reference */
+
+.block-ref-count-button {
+  color        : var(--icons) !important;
+  background   : transparent !important;
+  border-bottom: 1.5px solid var(--block-reference-text) !important;
+  z-index      : 1000 !important;
+  transition   : color 0.3s ease, border 0.3s ease !important;
+  opacity      : 1 !important;
+  font-family  : var(--header-font) !important;
+  margin-right : 6px;
+  margin-top   : 2px;
+  border-radius: 0;
+}
+
+.block-ref-count-button:hover {
+  color        : var(--icons-hover) !important;
+  background   : transparent !important;
+  border-bottom: 1.5px solid var(--block-reference-text) !important;
+  z-index      : 1000 !important;
+  transition   : color 0.3s ease, border 0.3s ease !important;
+}
+
+.rm-block-ref,
+.roam-block .rm-block-ref,
+span[style*="color: red"] {
+  color             : var(--body-text) !important;
+  border-bottom     : none !important;
+  border-right-color: var(--references) !important;
+  border-right-width: 0px !important;
+  border-right-style: solid;
+  padding-right     : 2px !important;
+  border-left-color : var(--references) !important;
+  border-left-width : 0px !important;
+  border-left-style : solid;
+  padding-left      : 2px !important;
+  border-radius     : 5px !important;
+  padding-top       : 2px !important;
+  padding-bottom    : 4px !important;
+  text-decoration: underline dotted var(--references) !important;
+}
+
+.rm-block-ref:hover {
+  background-color: var(--kanban-column-background) !important;
+  transition      : color 0.3s ease;
+}
+
+.bp3-icon.bp3-icon-filter[style*="color: rgb(168, 42, 42);"] {
+  color: var(--filter-icon) !important;
+}
+
+.bp3-input.bp3-minimal.search-input {
+  color: var(--body-text) !important;
+}
+
+div[style*="position: absolute; z-index: 1000; top: 0px; right: 0px; opacity: 0.5;"] {
+  opacity: 1 !important;
+}
+
+/* Inline Block References - Popup after clicking references */
+
+.rm-inline-references {
+  background-color: transparent;
+  border          : transparent;
+  box-shadow      : 0 0 3px 1px var(--references) !important;
+  border-radius   : 5px;
+  padding-top     : 5px;
+  padding-bottom  : 5px;
+  padding-right   : 20px;
+}
+
+.rm-inline-references:before {
+  color      : var(--block-reference-text);
+  content    : "Block References";
+  font-weight: 500 !important;
+}
+
+.rm-block-ref.dont-focus-block {
+  color: var(--block-reference-text);
+}
+
+.rm-zoom-mask {
+  color: var(--page-links);
+}
+
+.rm-zoom-item-content.rm-zoom-collapsed-item {
+  color          : var(--references);
+  text-decoration: underline;
+}
+
+/* Internal Roam Links [[Roam]] & #Roam & #[[Roam]] */
+.bp3-text-overflow-ellipsis a,
+.rm-pages-title-text strong {
+  color      : var(--page-links) !important;
+  font-weight: 500;
+  transition : color 0.3s ease;
+}
+
+.rm-page-ref,
+.rm-page-ref--link {
+  color      : var(--page-links) !important;
+  font-weight: 500;
+  transition : color 0.3s ease;
+}
+
+.rm-page-ref__brackets {
+  color: var(--references);
+}
+
+.rm-page-ref--tag {
+  color        : var(--hashtags) !important;
+  font-weight  : 600;
+  padding: 2px 3px 2px 3px;
+  transition   : color 0.3s ease;
+  background-color: var(--highlight-text-color) ;
+    border-radius: 5px;
+    border: 1px solid ;
+    font-size: 14px;
+}
+
+.rm-page-ref--tag:hover,
+.rm-page-ref:hover,
+.rm-pages-title-text strong:hover {
+  color          : var(--links-hover) !important;
+  text-decoration: none;
+  transition     : color 0.3s ease;
+}
+
+h1.level1 a,
+h1.level2 a,
+h1.level3 a,
+h1.level4 a,
+h1.level4 a,
+h2.level1 a,
+h2.level2 a,
+h2.level3 a,
+h2.level4 a,
+h3.level1 a,
+h3.level2 a,
+h3.level3 a,
+h3.level4 a,
+h4.level1 a,
+h4.level2 a,
+h4.level3 a {
+  color      : var(--page-links) !important;
+  font-weight: 500;
+}
+
+h1.level1 a:hover,
+h1.level2 a:hover,
+h1.level3 a:hover,
+h1.level4 a:hover,
+h2.level1 a:hover,
+h2.level2 a:hover,
+h2.level3 a:hover,
+h2.level4 a:hover,
+h3.level1 a:hover,
+h3.level2 a:hover,
+h3.level3 a:hover,
+h3.level4 a:hover,
+h4.level1 a:hover,
+h4.level2 a:hover,
+h4.level3 a:hover,
+h4.level4 a:hover {
+  color      : var(--links-hover) !important;
+  font-weight: 500;
+}
+
+.rm-page-ref--link:hover,
+a:focus,
+a:hover {
+  color          : var(--links-hover) !important;
+  text-decoration: none !important;
+  transition     : color 0.3s ease;
+}
